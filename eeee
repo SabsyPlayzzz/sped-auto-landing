@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpedAuto - Download Now</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+  <main class="min-h-screen flex flex-col items-center justify-center px-6 text-center">
+    <!-- Hero -->
+    <section class="max-w-2xl">
+      <h1 class="text-5xl font-bold mb-4">SpedAuto</h1>
+      <p class="text-xl mb-6">Ultra-fast precision auto-clicker</p>
+      <a href="#download" class="bg-green-500 text-black px-6 py-3 rounded-xl text-lg font-semibold hover:bg-green-400 transition">Download Now</a>
+    </section>
+
+    <!-- Preview -->
+    <section class="mt-16" id="download">
+      <h2 class="text-2xl font-semibold mb-4">App Preview</h2>
+      <img src="Screenshot%202025-06-04%20at%206.31.52%E2%80%AFPM.png" alt="SpedAuto UI Preview" class="rounded-xl border border-gray-700 shadow-xl max-w-full w-[400px]">
+    </section>
+
+    <!-- Features -->
+    <section class="mt-16 max-w-3xl">
+      <h2 class="text-2xl font-semibold mb-4">Why SpedAuto?</h2>
+      <ul class="space-y-4 text-left text-lg">
+        <li><span class="text-green-400">✔</span> Up to 100 clicks/sec with adjustable duty cycle</li>
+        <li><span class="text-green-400">✔</span> Toggle or hold modes with customizable hotkeys</li>
+        <li><span class="text-green-400">✔</span> Clean, minimalist UI optimized for macOS</li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-24 text-gray-500 text-sm">
+      &copy; 2025 SpedAuto. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
